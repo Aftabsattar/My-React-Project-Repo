@@ -1,0 +1,33 @@
+.text {
+    color: rgb(0, 0, 0);
+}
+.btna{
+    background-color: #edbf6d;
+    border: 2px solid #edbf6d;
+    transition: all 0.3s ease-in-out;
+}
+.btna:hover{
+    background: linear-gradient(345deg, #ffffff, #edbf6d);
+    border: 2px solid #edbf6d;
+   opacity: 0.8;
+   transform: scale(1.05);
+}
+.icon{
+    color:#edbf6d ;
+    margin-right: 20px;
+}
+.bgcolor{
+    background: linear-gradient(145deg,  #edbf6d,#ffffff);
+}
+.bgcolori{
+    background: linear-gradient(180deg, #ffffff, #edbf6d);
+}
+
+.input{
+    transition: all 0.3s ease-in-out;
+}
+.input:active{
+    opacity: 0.8;
+   transform: scale(1.05);
+   animation: pulse 2s infinite;
+}
